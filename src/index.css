@@ -60,7 +60,11 @@ body {
 
 /* Grid Pattern Background */
 .bg-grid-pattern {
-  background-image: linear-gradient(to right, rgba(128, 128, 128, 0.1) 1px, transparent 1px),
+  background-image: linear-gradient(
+      to right,
+      rgba(128, 128, 128, 0.1) 1px,
+      transparent 1px
+    ),
     linear-gradient(to bottom, rgba(128, 128, 128, 0.1) 1px, transparent 1px);
   background-size: 24px 24px;
 }
@@ -133,7 +137,8 @@ body {
 }
 
 .vertical-timeline-element-icon {
-  box-shadow: 0 0 0 4px #3b82f6, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px #3b82f6, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .vertical-timeline-element-content-arrow {
@@ -164,4 +169,3 @@ body {
   background-color: rgba(59, 130, 246, 0.3);
   color: inherit;
 }
-
