@@ -88,7 +88,7 @@ const Contact = () => {
             <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
             <div className="w-3 h-3 rounded-full bg-green-500"></div>
           </div>
-          <div className="mx-auto text-gray-400 text-sm font-mono">rahulchoudhary@gmail.com</div>
+          <div className="mx-auto text-gray-400 text-sm font-mono">mayanksinghrajput0217@gmail.com</div>
         </div>
 
         {/* Terminal Body */}

@@ -83,7 +83,7 @@ export default function Navbar() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              RC
+              MS
             </motion.a>
 
             <div className="hidden md:flex items-center space-x-1">

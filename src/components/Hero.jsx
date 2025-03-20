@@ -1,13 +1,13 @@
 import { motion } from "framer-motion"
 import { GitlabIcon as GitHub, Linkedin, Mail, Download, ArrowRight } from "lucide-react"
 import { DrawCircleText } from "./DrawCircleText"
-import portfoliopic from "../assets/ProtfolioPic.jpg"
+import PortfolioPic from "../assets/PortfolioPic.jpg"
 
 export default function Hero() {
   const socialLinks = [
-    { icon: GitHub, href: "https://github.com/RahulChoudhary05/", label: "GitHub" },
-    { icon: Linkedin, href: "https://www.linkedin.com/in/rahulchoudhary210505/", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:rahulchoudhary.sk@gmail.com", label: "Email" },
+    { icon: GitHub, href: "https://github.com/Singhmayank0217", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/mayank-singh-a4805327b/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:mayanksinghrajput0217@gmail.com", label: "Email" },
   ]
 
   return (
@@ -31,7 +31,7 @@ export default function Hero() {
               className="mb-6"
             >
               <span className="px-4 py-2 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 text-sm font-medium">
-                Full Stack Developer
+                Mern Stack Developer
               </span>
             </motion.div>
 
@@ -42,7 +42,7 @@ export default function Hero() {
               className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6"
             >
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Rahul Choudhary
+                Mayank Singh
               </span>
             </motion.h1>
 
@@ -55,7 +55,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mt-8"
             >
               <motion.a
-                href="https://drive.google.com/uc?export=download&id=12AUxK8OTwTL1eEwcySftkXkNa2b7ggzI"
+                href="https://drive.google.com/file/d/18jYDX5zzBSFDzKz8pbhf4RCw2Kr1IDtz/view?usp=sharing"
                 download
                 className="inline-flex items-center px-6 py-3 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-colors"
                 whileHover={{ scale: 1.05 }}
@@ -109,8 +109,8 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-blue-400 dark:from-purple-600 dark:to-blue-600 rounded-3xl transform -rotate-6 opacity-50"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src={portfoliopic}
-                  alt="Rahul Choudhary"
+                  src={PortfolioPic}
+                  alt="Mayank Singh"
                   className="w-full h-full object-cover"
                 />
               </div>

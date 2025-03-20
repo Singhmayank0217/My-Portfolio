@@ -3,10 +3,10 @@ import { Code, Database, Server, Zap } from "lucide-react"
 
 export default function About() {
   const skills = [
-    { icon: <Code className="w-8 h-8 text-blue-500" />, title: "Frontend", description: "React, Next.js, Redux" },
+    { icon: <Code className="w-8 h-8 text-blue-500" />, title: "Frontend", description: "React, Next.js" },
     { icon: <Server className="w-8 h-8 text-green-500" />, title: "Backend", description: "Node.js, Express, Fastify" },
     { icon: <Database className="w-8 h-8 text-purple-500" />, title: "Database", description: "MongoDB, Mongoose, Firebase" },
-    { icon: <Zap className="w-8 h-8 text-yellow-500" />, title: "Performance", description: "Optimization, Caching" },
+    { icon: <Zap className="w-8 h-8 text-yellow-500" />, title: "Performance", description: "Optimization" },
   ]
 
   return (
@@ -36,7 +36,7 @@ export default function About() {
               Currently Pursuing My Bachelor of Engineering in Computer Science & Engineering, Looking forward to learn and grow. As a passionate MERN Stack Developer, I specialize in building robust and scalable web applications. With a strong foundation in MongoDB, Express.js, React, and Node.js, I create seamless full-stack solutionsthat deliver exceptional user experiences.
             </p>
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-              My expertise extends to modern frameworks like Next.js and state management tools like Redux. Eager to contribute my skills and knowledge in a real-world environment to further develop my expertise.
+              My expertise extends to modern frameworks like Next.js . Eager to contribute my skills and knowledge in a real-world environment to further develop my expertise.
             </p>
           </motion.div>
           <motion.div

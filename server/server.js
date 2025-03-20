@@ -38,7 +38,7 @@ const mailSender = async (to, data) => {
 
     const emailTemplate = `
       <div style="font-family: Arial, sans-serif; line-height: 1.5; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd;">
-        <h2 style="color: #333;">Rahul Choudhary | New Contact Form Submission</h2>
+        <h2 style="color: #333;">Mayank Singh| New Contact Form Submission</h2>
         <p>Hello,</p>
         <p>You have a new message from your contact form:</p>
         <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
@@ -59,15 +59,15 @@ const mailSender = async (to, data) => {
             <td style="padding: 8px; border: 1px solid #ddd;">${data.message}</td>
           </tr>
         </table>
-        <p style="margin-top: 20px;">Sent automatically from Rahul Choudhary.</p>
-        <p style="color: #888;">&copy; ${new Date().getFullYear()} Rahul Choudhary </p>
+        <p style="margin-top: 20px;">Sent automatically from Mayank Singh.</p>
+        <p style="color: #888;">&copy; ${new Date().getFullYear()} Mayank Singh </p>
       </div>
     `;
 
     const info = await transporter.sendMail({
-      from: `"Rahul Choudhary | Portfolio Contact Notifications" <${process.env.MAIL_USER}>`,
+      from: `"Mayank Singh | Portfolio Contact Notifications" <${process.env.MAIL_USER}>`,
       to,
-      subject: `Rahul Choudhary | New Contact Submission from ${data.name}`,
+      subject: `Mayank Singh | New Contact Submission from ${data.name}`,
       html: emailTemplate,
     });
 

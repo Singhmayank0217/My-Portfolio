@@ -92,7 +92,7 @@ const Loader = ({ onLoadingComplete }) => {
           <div className="relative w-24 h-24">
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-500" />
             <div className="absolute inset-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 flex items-center justify-center text-white text-3xl font-bold">
-              RC
+              MS
             </div>
           </div>
         </motion.div>
@@ -103,7 +103,7 @@ const Loader = ({ onLoadingComplete }) => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-4xl font-bold text-white mb-2 text-center"
         >
-          Rahul Choudhary
+          Mayank Singh
         </motion.h1>
 
         <motion.p
@@ -112,7 +112,7 @@ const Loader = ({ onLoadingComplete }) => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-white/80 text-lg mb-8 text-center"
         >
-          Full Stack Developer
+          Mern Stack Developer
         </motion.p>
 
         <div className="w-full max-w-xs">

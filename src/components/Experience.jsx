@@ -6,27 +6,27 @@ import AnimatedSectionHeader from "./AnimatedSectionHeader"
 function Experience() {
   const experiences = [
     {
-      company: "R K TECHNICAL SUPPORT",
-      location: "Freelancing",
-      period: "December 2023 - January 2024",
-      role: "Frontend Developer",
+      company: "GRID REPUTATION PVT. LTD.",
+      location: "Howrah, WB",
+      period: "May 2024 - July 2024",
+      role: "FRONTEND DEVELOPER INTERN",
       responsibilities: [
-        "Led the development of a professional healthcare clinic website, utilizing HTML, CSS, and JavaScript.",
-        "Achieved a fully responsive design for mobile, desktop, and tablet, integrating dynamic Google Maps for real-time tracking.",
-        "Deployed by the client for real-world use on mobile, desktop, and tablet platforms.",
+        "Developed and optimized interactive UI components using React.js and Tailwind CSS.",
+        "Enhanced website performance using best coding practices.",
+        "Collaborated with a team to improve website functionality.",
       ],
     },
-    {
-      company: "S RAJ INFRA PROJECTS PRIVATE LIMITED",
-      location: "Freelancing",
-      period: "December 2024 - Present",
-      role: "MERN Stack Developer",
-      responsibilities: [
-        "Spearheaded the design and development of an enterprise-level SaaS platform, utilizing React and Tailwind CSS.",
-        "Engineered dynamic user interfaces with Framer Motion animations, achieving 40% improved user engagement metrics.",
-        "Successfully deployed to production, serving as the primary client acquisition and service showcase platform.",
-      ],
-    },
+    // {
+    //   company: "S RAJ INFRA PROJECTS PRIVATE LIMITED",
+    //   location: "Freelancing",
+    //   period: "December 2024 - Present",
+    //   role: "MERN Stack Developer",
+    //   responsibilities: [
+    //     "Spearheaded the design and development of an enterprise-level SaaS platform, utilizing React and Tailwind CSS.",
+    //     "Engineered dynamic user interfaces with Framer Motion animations, achieving 40% improved user engagement metrics.",
+    //     "Successfully deployed to production, serving as the primary client acquisition and service showcase platform.",
+    //   ],
+    // },
   ]
 
   return (

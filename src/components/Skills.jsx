@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { Code, Database, Server, Layout, GitBranch, Terminal, Layers, Cpu, Globe, Workflow } from "lucide-react"
+import { Code, Database, Server, Layout, GitBranch, Terminal, Layers, Cpu, Globe } from "lucide-react"
 import AnimatedSectionHeader from "./AnimatedSectionHeader"
 
 const SkillIcon = ({ icon: Icon, color }) => (
@@ -20,7 +20,7 @@ const skills = [
   {
     icon: Server,
     name: "Backend Development",
-    tech: "Node.js, Express, Fastify",
+    tech: "Node.js, Express",
     description: "Creating robust server-side applications with focus on scalability and clean architecture.",
     color: "text-green-500",
   },
@@ -55,7 +55,7 @@ const skills = [
   {
     icon: Layers,
     name: "State Management",
-    tech: "Redux, Context API",
+    tech: "PostMan, Context API",
     description: "Managing complex application state with modern state management solutions.",
     color: "text-indigo-500",
   },
@@ -73,13 +73,13 @@ const skills = [
     description: "Optimizing web applications for speed, accessibility, and search engine visibility.",
     color: "text-teal-500",
   },
-  {
-    icon: Workflow,
-    name: "Agile Methodologies",
-    tech: "Scrum, Kanban",
-    description: "Working efficiently in agile environments with focus on continuous delivery.",
-    color: "text-cyan-500",
-  },
+  // {
+  //   icon: Workflow,
+  //   name: "Agile Methodologies",
+  //   tech: "Scrum, Kanban",
+  //   description: "Working efficiently in agile environments with focus on continuous delivery.",
+  //   color: "text-cyan-500",
+  // },
 ]
 
 export default function Skills() {
