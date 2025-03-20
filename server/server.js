@@ -11,10 +11,10 @@ const PORT = process.env.PORT || 4000;
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose
-  .connect(process.env.MONGODB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URL, { tls: true })
   .then(() => console.log("Connected to MongoDB"))
-  .catch((err) => console.error("MongoDB connection error: ", err));
+  .catch((err) => console.error("MongoDB connection error:", err));
+
 
 const ContactSchema = new mongoose.Schema({
   email: { type: String, unique: true },
