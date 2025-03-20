@@ -58,7 +58,7 @@ const Contact = () => {
 
     if (!Object.keys(newErrors).length) {
       try {
-        const response = await axios.post("https://portfolio-4ra3.onrender.com/api/contact", formData);
+        const response = await axios.post("https://my-portfolio-sl4k.onrender.com/api/contact", formData);
         if (response.status === 200) {
           console.log("Form submitted:", response.data);
           setStep(4); // Move to the "success message" step
