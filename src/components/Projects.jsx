@@ -3,7 +3,10 @@ import { motion, AnimatePresence } from "framer-motion"
 import { GitlabIcon as GitHub, ExternalLink, X } from "lucide-react"
 import { Timeline } from "./Timeline"
 import Rk from "../assets/Rk-1.png";
-import SR from "../assets/Sraj-1.png"
+import SR from "../assets/Sraj-1.png";
+import GR from "../assets/Grid-1.png";
+import SS from "../assets/Shop-1.png";
+import AS from "../assets/Apple-1.png";
 
 const projects = [
   {
@@ -28,23 +31,33 @@ const projects = [
   },
   {
     id: 3,
-    title: "BharatMarket",
-    description: "Developed a full-fledged ecommerce website using React, Node.js, Express.js, Tailwind CSS with backend by Firebase. Implemented CI/CD pipeline using Docker and Jenkins for automated testing, building, and deployment, ensuring rapid updates. Implemented features like authentication, real-time database updates, and a smooth checkout process.",
-    image: "https://via.placeholder.com/400x300",
-    technologies: ["React", "Node.js", "Express", "Firebase", "Vercel", "Tailwind CSS", "Docker", "Jenkins", "CI/CD"],
-    github: "https://github.com/RahulChoudhary05/BharatMarket-EcommerceWebsite",
-    demo: "https://blog-platform-demo.com",
-    date: "March 2024 - April 2024",
+    title: "Grid Reputation, a market agency company",
+    description: " This project is currently deployed on Vercel and is still a work in progress. The client has requested to hold off on further development while awaiting design updates.",
+    image: GR,
+    technologies: ["React", "Node.js", "Express", "Firebase", "Vercel", "Tailwind CSS"],
+    github: "https://github.com/Singhmayank0217/Freelance-Project-GridReputation",
+    demo: "https://grid-reputation.vercel.app/",
+    date: "March 2023 - Present",
   },
   {
     id: 4,
-    title: "StudyNotion",
-    description: "Led the development of a fully functional EdTech platform enabling users to create, consume, and rate educational content. Utilized the MERN stack (MongoDB, Express.js, ReactJS, Node.js) to build a seamless learning experience. Created a seamless learning experience and implemented client-server architecture.",
-    image: "https://via.placeholder.com/400x300",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "MERN", "Tailwind CSS", "Vercel"],
-    github: "https://github.com/RahulChoudhary05/StudyNotion",
-    demo: "https://blog-platform-demo.com",
-    date: "June 2024 - August",
+    title: "The Sparkle Shop",
+    description: "Currently, I'm waiting for the design, as the site is built on WordPress.",
+    image: SS,
+    technologies: ["React", "Node.js", "Express", "MongoDB", "MERN", "Tailwind CSS", "Vercel","Render"],
+    github: "",
+    demo: "https://thesparkleshop.in/",
+    date: "Feb 2025 - Present",
+  },
+  {
+    id: 5,
+    title: "Apple Store Project : Apple clone iPhone 15 Pro",
+    description: "This project is currently deployed on Vercel and utilizes Three.js for creating immersive 3D graphics, along with Framer Motion for sophisticated animations and transitions.",
+    image: AS,
+    technologies: ["React", "Tailwind CSS","Framer-Motion", " Gsap", "Three.Js", "Vercel"],
+    github: "https://github.com/Singhmayank0217/Apple_ThreeJs",
+    demo: "https://iphone15pro-mayank.netlify.app/",
+    date: "Feb 2025 - Present",
   },
  
 ]
