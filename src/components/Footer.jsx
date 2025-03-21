@@ -3,10 +3,10 @@ import { GitlabIcon as GitHub, Linkedin, Mail, Twitter } from "lucide-react"
 
 export default function Footer() {
   const socialLinks = [
-    { icon: GitHub, href: "https://github.com/RahulChoudhary05/", label: "GitHub" },
-    { icon: Linkedin, href: "https://www.linkedin.com/in/rahulchoudhary210505/", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com/krahul_21/", label: "Twitter" },
-    { icon: Mail, href: "mailto:rahulchoudhary.sk@gmail.com", label: "Email" },
+    { icon: GitHub, href: "https://github.com/Singhmayank0217/", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/mayank-singh-a4805327b/", label: "LinkedIn" },
+    // { icon: Twitter, href: "#", label: "Twitter" },
+    { icon: Mail, href: "mailto:mayanksinghrajput0217@gmail.com", label: "Email" },
   ]
 
   const footerVariants = {
@@ -38,7 +38,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <motion.div variants={itemVariants} className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Rahul Choudhary
+              Mayank Singh
             </h3>
             <p className="text-gray-600 dark:text-gray-400 max-w-sm">
               Crafting exceptional digital experiences with modern web technologies.
@@ -86,7 +86,7 @@ export default function Footer() {
           variants={itemVariants}
           className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800 text-center text-gray-600 dark:text-gray-400"
         >
-          <p>© {new Date().getFullYear()} Rahul Choudhary. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Mayank Singh. All rights reserved.</p>
         </motion.div>
       </div>
     </motion.footer>
