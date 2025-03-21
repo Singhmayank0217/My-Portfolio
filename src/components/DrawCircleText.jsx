@@ -6,9 +6,9 @@ export const DrawCircleText = () => {
       <h2 className="max-w-2xl text-center text-2xl md:text-3xl lg:text-4xl leading-snug">
       Building modern, scalable digital solutions {" "} 
         <span className="relative">
-        with the MERN stack.
+         with the MERN stack.
           <svg
-            viewBox="0 0 286 73"
+            viewBox="-2 12 286 77"
             fill="none"
             className="absolute -left-2 -right-2 -top-2 bottom-0 translate-y-1 w-full"
           >
