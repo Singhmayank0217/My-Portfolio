@@ -55,7 +55,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mt-8"
             >
               <motion.a
-                href="https://drive.google.com/file/d/18jYDX5zzBSFDzKz8pbhf4RCw2Kr1IDtz/view?usp=sharing"
+                href="https://drive.google.com/file/d/1cJ35n5rhbSShLcybriWIeWJIFKVGDfXt/view?usp=sharing"
                 download
                 className="inline-flex items-center px-6 py-3 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-colors"
                 whileHover={{ scale: 1.05 }}
