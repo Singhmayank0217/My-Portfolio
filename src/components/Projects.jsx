@@ -57,7 +57,7 @@ const projects = [
     technologies: ["React", "Tailwind CSS","Framer-Motion", " Gsap", "Three.Js", "Vercel"],
     github: "https://github.com/Singhmayank0217/Apple_ThreeJs",
     demo: "https://iphone15pro-mayank.netlify.app/",
-    date: "Feb 2025 - Present",
+    date: "January 2024 - January 2024",
   },
  
 ]
