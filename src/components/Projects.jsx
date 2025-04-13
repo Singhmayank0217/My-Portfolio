@@ -7,40 +7,26 @@ import SR from "../assets/Sraj-1.png";
 import GR from "../assets/Grid-1.png";
 import SS from "../assets/Shop-1.png";
 import AS from "../assets/Apple-1.png";
+import US from "../assets/Uni-1.png";
 
 const projects = [
   {
     id: 1,
-    title: "S RAJ INFRA PROJECTS PRIVATE LIMITED",
-    description: "Spearheaded the design and development of an enterprise-level SaaS platform, utilizing React and Tailwind CSS. Engineered dynamic user interfaces with Framer Motion animations, achieving 40% improved user engagement metrics. Successfully deployed to production, serving as the primary client acquisition and service showcase platform.",
-    image: SR,
-    technologies: ["React", "Node.js", "Express", "Firebase", "Vercel", "Tailwind CSS"],
-    github: "https://github.com/Singhmayank0217/S-RAJ-INFRA",
-    demo: "https://s-raj-infra.vercel.app/",
-    date: "December 2024 - Present",
+    title: "UniShare - A Resource Sharing Platform",
+    description: `UniShare is a collaborative platform designed for students to share academic resources, form study groups, and communicate effectively.
+  • Students can upload, share, and download academic resources categorized by branch, semester, and subject. 
+  • Each resource supports file attachments, tags, ratings, reviews, and view/download tracking. 
+  • Users can create or join study groups for specific topics or subjects. 
+  • Study groups include real-time chat for effective collaboration among members.  
+  • The platform ensures secure file uploads, user authentication, and smart filtering for easy content discovery.`,
+    image: US,
+    technologies: ["React", "Tailwind CSS", "MongoDb", "Render", "Vercel"],
+    github: "https://github.com/Singhmayank0217/Uni-Share",
+    demo: "https://unisharehub.vercel.app/",
+    date: "March 2025 - february 2025",
   },
   {
     id: 2,
-    title: "R K TECHNICAL SUPPORT",
-    description: "Led the development of a professional Security website, utilizing HTML, CSS, and JavaScript. Achieved a fully responsive design for mobile, desktop, and tablet, integrating dynamic Google Maps for real-time tracking. Deployed by the client for real-world use on mobile, desktop, and tablet platforms.",
-    image: Rk,
-    technologies: ["HTML", "CSS", "JavaScript", "Google Maps API", "Vercel"],
-    github: "https://github.com/Singhmayank0217/RKTECHNICALSUPPORT",
-    demo: "https://www.rktechs.co/",
-    date: "December 2023 - January 2024",
-  },
-  {
-    id: 3,
-    title: "Grid Reputation, a market agency company",
-    description: " This project is currently deployed on Vercel and is still a work in progress. The client has requested to hold off on further development while awaiting design updates.",
-    image: GR,
-    technologies: ["React", "Node.js", "Express", "Firebase", "Vercel", "Tailwind CSS"],
-    github: "https://github.com/Singhmayank0217/Freelance-Project-GridReputation",
-    demo: "https://grid-reputation.vercel.app/",
-    date: "March 2023 - Present",
-  },
-  {
-    id: 4,
     title: "The Sparkle Shop",
     description: "Currently, I'm waiting for the design, as the site is built on WordPress.",
     image: SS,
@@ -50,7 +36,37 @@ const projects = [
     date: "Feb 2025 - Present",
   },
   {
+    id: 3,
+    title: "S RAJ INFRA PROJECTS PRIVATE LIMITED",
+    description: "Spearheaded the design and development of an enterprise-level SaaS platform, utilizing React and Tailwind CSS. Engineered dynamic user interfaces with Framer Motion animations, achieving 40% improved user engagement metrics. Successfully deployed to production, serving as the primary client acquisition and service showcase platform.",
+    image: SR,
+    technologies: ["React", "Node.js", "Express", "Firebase", "Vercel", "Tailwind CSS"],
+    github: "https://github.com/Singhmayank0217/S-RAJ-INFRA",
+    demo: "https://s-raj-infra.vercel.app/",
+    date: "December 2024 - Present",
+  },
+  {
+    id: 4,
+    title: "R K TECHNICAL SUPPORT",
+    description: "Led the development of a professional Security website, utilizing HTML, CSS, and JavaScript. Achieved a fully responsive design for mobile, desktop, and tablet, integrating dynamic Google Maps for real-time tracking. Deployed by the client for real-world use on mobile, desktop, and tablet platforms.",
+    image: Rk,
+    technologies: ["HTML", "CSS", "JavaScript", "Google Maps API", "Vercel"],
+    github: "https://github.com/Singhmayank0217/RKTECHNICALSUPPORT",
+    demo: "https://www.rktechs.co/",
+    date: "December 2023 - January 2024",
+  },
+  {
     id: 5,
+    title: "Grid Reputation, a market agency company",
+    description: " This project is currently deployed on Vercel and is still a work in progress. The client has requested to hold off on further development while awaiting design updates.",
+    image: GR,
+    technologies: ["React", "Node.js", "Express", "Firebase", "Vercel", "Tailwind CSS"],
+    github: "https://github.com/Singhmayank0217/Freelance-Project-GridReputation",
+    demo: "https://grid-reputation.vercel.app/",
+    date: "March 2024 - Present",
+  },
+  {
+    id: 6,
     title: "Apple Store Project : Apple clone iPhone 15 Pro",
     description: "This project is currently deployed on Vercel and utilizes Three.js for creating immersive 3D graphics, along with Framer Motion for sophisticated animations and transitions.",
     image: AS,
@@ -58,8 +74,7 @@ const projects = [
     github: "https://github.com/Singhmayank0217/Apple_ThreeJs",
     demo: "https://iphone15pro-mayank.netlify.app/",
     date: "January 2024 - January 2024",
-  },
- 
+  }, 
 ]
 
 const ProjectCard = ({ project, onClick }) => {
