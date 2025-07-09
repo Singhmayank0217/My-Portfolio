@@ -1,17 +1,34 @@
-import { useState, useRef } from "react"
-import { motion, AnimatePresence } from "framer-motion"
-import { GitlabIcon as GitHub, ExternalLink, X } from "lucide-react"
-import { Timeline } from "./Timeline"
+import { useState, useRef } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { GitlabIcon as GitHub, ExternalLink, X } from "lucide-react";
+import { Timeline } from "./Timeline";
 import Rk from "../assets/Rk-1.png";
 import SR from "../assets/Sraj-1.png";
 import GR from "../assets/Grid-1.png";
 import SS from "../assets/Shop-1.png";
 import AS from "../assets/Apple-1.png";
 import US from "../assets/Uni-1.png";
+import RT from "../assets/Rk-2.png"
 
 const projects = [
   {
     id: 1,
+    title: "R K TECHNICAL SUPPORT",
+    description: `Developed a modern React-based website for R K Technical Support, upgrading the existing static HTML site as per client requirements.
+  • Migrated the entire site from HTML to a responsive React application with improved UI using Tailwind CSS.
+  • Implemented a PDF download feature for service documents and manuals.
+  • Enhanced the site with interactive components and dynamic routing for smoother navigation.
+  • Ensured optimal performance, SEO practices, and cross-device compatibility.
+  • Delivered the final product deployed on Vercel, with ongoing support and version updates.`,
+    image: RT,
+    technologies: ["React", "Tailwind CSS", "Vercel"],
+    github: "https://github.com/Singhmayank0217/Rk-TECHNICAL",
+    demo: "https://www.rktechs.co/",
+    date: "June 2025 - July 2025",
+  },
+
+  {
+    id: 2,
     title: "UniShare - A Resource Sharing Platform",
     description: `UniShare is a collaborative platform designed for students to share academic resources, form study groups, and communicate effectively.
   • Students can upload, share, and download academic resources categorized by branch, semester, and subject. 
@@ -26,29 +43,48 @@ const projects = [
     date: "March 2025 - february 2025",
   },
   {
-    id: 2,
+    id: 3,
     title: "The Sparkle Shop",
-    description: "Currently, I'm waiting for the design, as the site is built on WordPress.",
+    description:
+      "Currently, I'm waiting for the design, as the site is built on WordPress.",
     image: SS,
-    technologies: ["React", "Node.js", "Express", "MongoDB", "MERN", "Tailwind CSS", "Vercel","Render"],
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "MERN",
+      "Tailwind CSS",
+      "Vercel",
+      "Render",
+    ],
     github: "",
     demo: "https://thesparkleshop.in/",
-    date: "Feb 2025 - Present",
+    date: "July 2025 - Present",
   },
   {
-    id: 3,
+    id: 4,
     title: "S RAJ INFRA PROJECTS PRIVATE LIMITED",
-    description: "Spearheaded the design and development of an enterprise-level SaaS platform, utilizing React and Tailwind CSS. Engineered dynamic user interfaces with Framer Motion animations, achieving 40% improved user engagement metrics. Successfully deployed to production, serving as the primary client acquisition and service showcase platform.",
+    description:
+      "Spearheaded the design and development of an enterprise-level SaaS platform, utilizing React and Tailwind CSS. Engineered dynamic user interfaces with Framer Motion animations, achieving 40% improved user engagement metrics. Successfully deployed to production, serving as the primary client acquisition and service showcase platform.",
     image: SR,
-    technologies: ["React", "Node.js", "Express", "Firebase", "Vercel", "Tailwind CSS"],
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "Firebase",
+      "Vercel",
+      "Tailwind CSS",
+    ],
     github: "https://github.com/Singhmayank0217/S-RAJ-INFRA",
     demo: "https://s-raj-infra.vercel.app/",
     date: "December 2024 - Present",
   },
   {
-    id: 4,
+    id: 5,
     title: "R K TECHNICAL SUPPORT",
-    description: "Led the development of a professional Security website, utilizing HTML, CSS, and JavaScript. Achieved a fully responsive design for mobile, desktop, and tablet, integrating dynamic Google Maps for real-time tracking. Deployed by the client for real-world use on mobile, desktop, and tablet platforms.",
+    description:
+      "Led the development of a professional Security website, utilizing HTML, CSS, and JavaScript. Achieved a fully responsive design for mobile, desktop, and tablet, integrating dynamic Google Maps for real-time tracking. Deployed by the client for real-world use on mobile, desktop, and tablet platforms.",
     image: Rk,
     technologies: ["HTML", "CSS", "JavaScript", "Google Maps API", "Vercel"],
     github: "https://github.com/Singhmayank0217/RKTECHNICALSUPPORT",
@@ -56,29 +92,46 @@ const projects = [
     date: "December 2023 - January 2024",
   },
   {
-    id: 5,
+    id: 6,
     title: "Grid Reputation, a market agency company",
-    description: " This project is currently deployed on Vercel and is still a work in progress. The client has requested to hold off on further development while awaiting design updates.",
+    description:
+      " This project is currently deployed on Vercel and is still a work in progress. The client has requested to hold off on further development while awaiting design updates.",
     image: GR,
-    technologies: ["React", "Node.js", "Express", "Firebase", "Vercel", "Tailwind CSS"],
-    github: "https://github.com/Singhmayank0217/Freelance-Project-GridReputation",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "Firebase",
+      "Vercel",
+      "Tailwind CSS",
+    ],
+    github:
+      "https://github.com/Singhmayank0217/Freelance-Project-GridReputation",
     demo: "https://grid-reputation.vercel.app/",
     date: "March 2024 - Present",
   },
   {
-    id: 6,
+    id: 7,
     title: "Apple Store Project : Apple clone iPhone 15 Pro",
-    description: "This project is currently deployed on Vercel and utilizes Three.js for creating immersive 3D graphics, along with Framer Motion for sophisticated animations and transitions.",
+    description:
+      "This project is currently deployed on Vercel and utilizes Three.js for creating immersive 3D graphics, along with Framer Motion for sophisticated animations and transitions.",
     image: AS,
-    technologies: ["React", "Tailwind CSS","Framer-Motion", " Gsap", "Three.Js", "Vercel"],
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "Framer-Motion",
+      " Gsap",
+      "Three.Js",
+      "Vercel",
+    ],
     github: "https://github.com/Singhmayank0217/Apple_ThreeJs",
     demo: "https://iphone15pro-mayank.netlify.app/",
     date: "January 2024 - January 2024",
-  }, 
-]
+  },
+];
 
 const ProjectCard = ({ project, onClick }) => {
-  const cardRef = useRef(null)
+  const cardRef = useRef(null);
 
   return (
     <motion.div
@@ -101,7 +154,9 @@ const ProjectCard = ({ project, onClick }) => {
         />
       </motion.div>
       <motion.div className="p-5">
-        <motion.h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">{project.title}</motion.h3>
+        <motion.h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">
+          {project.title}
+        </motion.h3>
         <motion.p className="text-gray-600 dark:text-gray-300 text-sm line-clamp-2 mb-4">
           {project.description}
         </motion.p>
@@ -118,8 +173,8 @@ const ProjectCard = ({ project, onClick }) => {
         </motion.div>
       </motion.div>
     </motion.div>
-  )
-}
+  );
+};
 
 const ProjectModal = ({ project, onClose }) => (
   <motion.div
@@ -221,15 +276,15 @@ const ProjectModal = ({ project, onClose }) => (
       </motion.div>
     </motion.div>
   </motion.div>
-)
+);
 
 export default function Projects() {
-  const [selectedProject, setSelectedProject] = useState(null)
+  const [selectedProject, setSelectedProject] = useState(null);
 
   const data = projects.map((project) => ({
     title: project.date,
     content: <ProjectCard project={project} onClick={setSelectedProject} />,
-  }))
+  }));
 
   return (
     <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-900">
@@ -245,8 +300,13 @@ export default function Projects() {
         <Timeline data={data} />
       </div>
       <AnimatePresence>
-        {selectedProject && <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />}
+        {selectedProject && (
+          <ProjectModal
+            project={selectedProject}
+            onClose={() => setSelectedProject(null)}
+          />
+        )}
       </AnimatePresence>
     </section>
-  )
+  );
 }
