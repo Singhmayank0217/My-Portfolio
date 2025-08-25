@@ -12,6 +12,7 @@ import Education from "./components/Education"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import Loader from "./components/Loader"
+import Certificate from "./components/ui/certificate"
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -38,6 +39,7 @@ function App() {
             <Experience />
             <Skills />
             <Projects />
+            <Certificate/>
             <Services />
             <Education />
             <Contact />
