@@ -4,13 +4,25 @@ import Carousel from "../ui/carousel";
 import Appreciation from "../../assets/Appreciation.png";
 import LLM from "../../assets/LLM.png";
 import Innovate from "../../assets/Innovate.png";
+import Master from "../../assets/Master-In-Business_Analytics.jpg"
+import Micro from "../../assets/micro1.png"
 
 export default function Certificate() {
   const slideData = [
     {
+      title: "Micro certificate",
+      button: "micro1",
+      src: Micro,
+    },
+    {
       title: "Appreciation Certificate",
       button: "R K TECHNICAL SUPPORT",
       src: Appreciation,
+    },
+    {
+      title: "Master-In-Business-Analytics",
+      button: "Udemy",
+      src: Master,
     },
     {
       title: "LangChain for LLM Application Development",

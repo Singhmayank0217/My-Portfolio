@@ -8,11 +8,75 @@ import GR from "../assets/Grid-1.png";
 import SS from "../assets/Shop-1.png";
 import AS from "../assets/Apple-1.png";
 import US from "../assets/Uni-1.png";
-import RT from "../assets/Rk-2.png"
+import RT from "../assets/Rk-2.png";
+import Medo from "../assets/Medo-2.png";
+import BB from "../assets/Baba.png";
+import RR from "../assets/RR.png";
 
 const projects = [
   {
     id: 1,
+    title: "RR Enterprise - Logistics & Business Management Platform",
+    description: `Developed a full-stack logistics and business management platform for RR Enterprise using React, Python, FastAPI, and MongoDB to streamline transportation operations and customer management.
+  • Built the complete frontend and backend architecture using React, FastAPI, and Python.
+  • Developed a centralized dashboard for managing shipments, transportation records, customer information, payment history, and outstanding dues.
+  • Implemented secure authentication and role-based access control to protect business data and administrative operations.
+  • Designed scalable REST APIs and optimized database operations for efficient handling of complex business records.
+  • Replaced manual record-keeping with a secure, responsive, and user-friendly platform, improving operational efficiency and reducing data management errors.`,
+    image: RR,
+    technologies: [
+      "React",
+      "Python",
+      "FastAPI",
+      "MongoDB",
+      "Tailwind CSS",
+      "REST API",
+    ],
+    github: "https://github.com/Singhmayank0217/RR-EnterPrise",
+    demo: "https://rrep.vercel.app/",
+    date: "March 2026 - April 2026",
+  },
+  {
+    id: 2,
+    title: "MedoShield AI - AI-Powered Parkinson's Risk Assessment Platform",
+    description: `Built a full-stack AI-powered healthcare platform for Parkinson's disease risk assessment using React, FastAPI, and MongoDB.
+  • Developed a responsive React frontend with Tailwind CSS for an intuitive healthcare dashboard.
+  • Built scalable FastAPI backend services for real-time AI-based Parkinson's risk prediction.
+  • Integrated secure MongoDB database for patient data management and assessment history.
+  • Optimized backend processing pipelines, reducing response latency and improving overall performance.
+  • Containerized the application using Docker and deployed the frontend on Vercel for seamless accessibility.`,
+    image: Medo,
+    technologies: [
+      "React",
+      "FastAPI",
+      "Python",
+      "MongoDB",
+      "Docker",
+      "Tailwind CSS",
+      "Vercel",
+    ],
+    github: "https://github.com/Singhmayank0217/Medo-Shield-AI",
+    demo: "https://medo-shield-ai.vercel.app/",
+    date: "February 2026 - February 2026",
+  },
+  {
+    id: 3,
+    title: "Baba Dairy ",
+    description: `Redesigned and enhanced the Baba Dairy business website by improving the homepage, fixing existing issues, and optimizing user experience.
+  • Redesigned the homepage with a modern, responsive UI using React and Tailwind CSS.
+  • Fixed bugs across the website, improving stability and overall performance.
+  • Resolved layout and functionality issues on the Projects and Contact Us pages.
+  • Enhanced responsiveness and cross-device compatibility for a seamless user experience.
+  • Deployed updates and provided ongoing maintenance to ensure smooth website functionality.`,
+    image: BB,
+    technologies: ["React", "Tailwind CSS", "JavaScript", "Vercel"],
+    github: "https://github.com/Singhmayank0217/babadairy",
+    demo: "https://babadairy.com/",
+    date: "January 2026 - January 2026",
+  },
+
+  {
+    id: 4,
     title: "R K TECHNICAL SUPPORT",
     description: `Developed a modern React-based website for R K Technical Support, upgrading the existing static HTML site as per client requirements.
   • Migrated the entire site from HTML to a responsive React application with improved UI using Tailwind CSS.
@@ -28,7 +92,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 5,
     title: "UniShare - A Resource Sharing Platform",
     description: `UniShare is a collaborative platform designed for students to share academic resources, form study groups, and communicate effectively.
   • Students can upload, share, and download academic resources categorized by branch, semester, and subject. 
@@ -40,10 +104,10 @@ const projects = [
     technologies: ["React", "Tailwind CSS", "MongoDb", "Render", "Vercel"],
     github: "https://github.com/Singhmayank0217/Uni-Share",
     demo: "https://unisharehub.vercel.app/",
-    date: "March 2025 - february 2025",
+    date: "March 2025 - February 2026",
   },
   {
-    id: 3,
+    id: 6,
     title: "The Sparkle Shop",
     description:
       "Currently, I'm waiting for the design, as the site is built on WordPress.",
@@ -60,10 +124,10 @@ const projects = [
     ],
     github: "",
     demo: "https://thesparkleshop.in/",
-    date: "July 2025 - Present",
+    date: "January 2026 - Present",
   },
   {
-    id: 4,
+    id: 7,
     title: "S RAJ INFRA PROJECTS PRIVATE LIMITED",
     description:
       "Spearheaded the design and development of an enterprise-level SaaS platform, utilizing React and Tailwind CSS. Engineered dynamic user interfaces with Framer Motion animations, achieving 40% improved user engagement metrics. Successfully deployed to production, serving as the primary client acquisition and service showcase platform.",
@@ -81,7 +145,7 @@ const projects = [
     date: "December 2024 - Present",
   },
   {
-    id: 5,
+    id: 8,
     title: "R K TECHNICAL SUPPORT",
     description:
       "Led the development of a professional Security website, utilizing HTML, CSS, and JavaScript. Achieved a fully responsive design for mobile, desktop, and tablet, integrating dynamic Google Maps for real-time tracking. Deployed by the client for real-world use on mobile, desktop, and tablet platforms.",
@@ -92,7 +156,7 @@ const projects = [
     date: "December 2023 - January 2024",
   },
   {
-    id: 6,
+    id: 9,
     title: "Grid Reputation, a market agency company",
     description:
       " This project is currently deployed on Vercel and is still a work in progress. The client has requested to hold off on further development while awaiting design updates.",
@@ -111,7 +175,7 @@ const projects = [
     date: "March 2024 - Present",
   },
   {
-    id: 7,
+    id: 10,
     title: "Apple Store Project : Apple clone iPhone 15 Pro",
     description:
       "This project is currently deployed on Vercel and utilizes Three.js for creating immersive 3D graphics, along with Framer Motion for sophisticated animations and transitions.",
@@ -141,11 +205,11 @@ const ProjectCard = ({ project, onClick }) => {
       whileHover={{ y: -10 }}
       layoutId={`project-card-${project.id}`}
     >
-      <motion.div className="relative h-48 overflow-hidden">
+      <motion.div className="relative aspect-[16/9] overflow-hidden bg-gray-100 dark:bg-gray-900 flex items-center justify-center">
         <motion.img
           src={project.image}
           alt={project.title}
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+          className="w-full h-full object-contain object-center transition-transform duration-300 group-hover:scale-105"
         />
         <motion.div
           className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -198,11 +262,11 @@ const ProjectModal = ({ project, onClose }) => (
       >
         <X size={24} />
       </motion.button>
-      <motion.div className="relative h-64 overflow-hidden">
+      <motion.div className="relative aspect-[16/9] max-h-[32rem] overflow-hidden bg-gray-100 dark:bg-gray-950 flex items-center justify-center">
         <motion.img
           src={project.image}
           alt={project.title}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain object-center"
           layoutId={`project-image-${project.id}`}
         />
         <motion.div

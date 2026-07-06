@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { GitlabIcon as GitHub, Linkedin, Mail, Download, ArrowRight } from "lucide-react"
 import { DrawCircleText } from "./DrawCircleText"
-import PortfolioPic from "../assets/PortfolioPic.jpg"
+import PortfolioPic from "../assets/PortfolioPic.jpeg"
 
 export default function Hero() {
   const socialLinks = [
@@ -55,7 +55,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mt-8"
             >
               <motion.a
-                href="https://drive.google.com/file/d/1uYGewiAbj1SqqoiQ_lr2voJc8HEqJkll/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Q4N88co9SJixGLvbcx7W1nAh2k0oo-tK/view?usp=sharing"
                 download
                 className="inline-flex items-center px-6 py-3 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-colors"
                 whileHover={{ scale: 1.05 }}

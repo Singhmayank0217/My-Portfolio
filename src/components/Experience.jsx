@@ -5,30 +5,42 @@ import AnimatedSectionHeader from "./AnimatedSectionHeader";
 
 function Experience() {
   const experiences = [
-    {
-      company: "Celebal Technologies",
-      location: "Jaipur",
-      period: "June 2025 - August 2025",
-      role: "React JS",
-      responsibilities: [
-        "Contributed to the development of multiple frontend projects—including a dashboard, Spotify clone, eCommerce store, and Kanban board—under the guidance of a senior developer.",
-        "Implemented responsive UI components using React and Tailwind CSS, integrating animations with Framer Motion to enhance user interactivity.",
-        "Utilized Redux for state management and created custom React hooks to promote code reuse and maintainability across projects.",
-        "Collaborated on deploying applications to staging environments, gaining hands-on experience in iterative development and version control.",
-      ],
-    },
-    {
-      company: "GRID REPUTATION PVT. LTD.",
-      location: "Howrah, WB",
-      period: "May 2024 - July 2024",
-      role: "FRONTEND DEVELOPER INTERN",
-      responsibilities: [
-        "Developed and optimized interactive UI components using React.js and Tailwind CSS.",
-        "Enhanced website performance using best coding practices.",
-        "Collaborated with a team to improve website functionality.",
-      ],
-    },
-  ];
+  {
+    company: "Freelance Full Stack Developer",
+    location: "Remote",
+    period: "November 2023 - Present",
+    role: "Full Stack & AI Developer",
+    responsibilities: [
+      "Delivered 6+ production-ready websites and web applications for clients using React.js, Next.js, Node.js, FastAPI, Python, and Tailwind CSS.",
+      "Developed and maintained business platforms for clients including RK Technical Support, RR Enterprise, Baba Dairy, and SRAJ, focusing on scalable and responsive solutions.",
+      "Built full-stack applications with secure REST APIs, authentication systems, database integration, and modern UI/UX for improved business workflows.",
+      "Deployed applications on Vercel and provided ongoing maintenance, bug fixes, feature enhancements, and technical support for production systems.",
+    ],
+  },
+  {
+    company: "Celebal Technologies",
+    location: "Jaipur",
+    period: "June 2025 - August 2025",
+    role: "React JS Intern",
+    responsibilities: [
+      "Contributed to the development of multiple frontend projects—including a dashboard, Spotify clone, eCommerce store, and Kanban board—under the guidance of a senior developer.",
+      "Implemented responsive UI components using React and Tailwind CSS, integrating animations with Framer Motion to enhance user interactivity.",
+      "Utilized Redux for state management and created custom React hooks to promote code reuse and maintainability across projects.",
+      "Collaborated on deploying applications to staging environments, gaining hands-on experience in iterative development and version control.",
+    ],
+  },
+  {
+    company: "GRID REPUTATION PVT. LTD.",
+    location: "Howrah, WB",
+    period: "May 2024 - July 2024",
+    role: "Frontend Developer Intern",
+    responsibilities: [
+      "Developed and optimized interactive UI components using React.js and Tailwind CSS.",
+      "Enhanced website performance using best coding practices.",
+      "Collaborated with a team to improve website functionality.",
+    ],
+  },
+];
 
   return (
     <section
