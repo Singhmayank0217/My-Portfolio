@@ -12,7 +12,6 @@ const Contact = () => {
   });
   const [errors, setErrors] = useState({});
   const [typing, setTyping] = useState(false);
-  const [success, setSuccess] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
 
   const questions = ["your email?", "your name?", "your message?"];
@@ -62,7 +61,6 @@ const Contact = () => {
         if (response.status === 200) {
           console.log("Form submitted:", response.data);
           setStep(4); // Move to the "success message" step
-          setSuccess(true);
         }
       } catch (error) {
         console.error("Error submitting form:", error);

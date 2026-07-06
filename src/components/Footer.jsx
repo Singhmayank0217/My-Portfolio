@@ -1,11 +1,10 @@
 import { motion } from "framer-motion"
-import { GitlabIcon as GitHub, Linkedin, Mail, Twitter } from "lucide-react"
+import { GitlabIcon as GitHub, Linkedin, Mail } from "lucide-react"
 
 export default function Footer() {
   const socialLinks = [
     { icon: GitHub, href: "https://github.com/Singhmayank0217/", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/mayank-singh-a4805327b/", label: "LinkedIn" },
-    // { icon: Twitter, href: "#", label: "Twitter" },
     { icon: Mail, href: "mailto:mayanksinghrajput0217@gmail.com", label: "Email" },
   ]
 
